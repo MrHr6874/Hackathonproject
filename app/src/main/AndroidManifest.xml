@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hackathonproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Lab03"></activity>
+        <activity android:name=".Lab02" />
+        <activity android:name=".Lab01" />
+        <activity android:name=".Casefour" />
+        <activity android:name=".Casethree" />
+        <activity android:name=".Casetwo" />
+        <activity android:name=".Opdrem" />
+        <activity
+            android:name=".Labreport"
+            android:parentActivityName=".Hackathonnav" />
+        <activity android:name=".Caseone" />
+        <activity
+            android:name=".Healthhistory"
+            android:parentActivityName=".Hackathonnav" />
+        <activity android:name=".Forgotpwd" />
+        <activity
+            android:name=".Hackathonnav"
+            android:label="@string/title_activity_hackathonnav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Regsuccess" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Medicine"
+            android:parentActivityName=".Hackathonnav" />
+    </application>
+
+</manifest>
